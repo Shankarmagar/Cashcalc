@@ -1,0 +1,143 @@
+.signup-page {
+  background: linear-gradient(to bottom, rgb(188, 225, 188) 70%, green 100%);
+  padding-bottom: 140px;
+}
+
+.signup-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.signup-header img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.signup-h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.chart {
+  float: left;
+  margin-right: 20px;
+}
+
+.chart img {
+  width: 600px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.signup-h2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  align-items: center;
+}
+
+.signup-box {
+  background-color: rgb(194, 194, 194);
+  padding: 40px;
+  border-radius: 15px;
+  margin-right: 200px;
+  width: 300px;
+}
+
+.signup-buttons .google-button {
+  background-color: lightgray;
+}
+
+.signup-buttons .apple-button {
+  background-color: black;
+  color: white;
+}
+
+.google-button img {
+  padding-right: 10px;
+}
+
+.apple-button img {
+  padding-right: 10px;
+}
+
+.third-party-signup p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.signup-input {
+  margin-bottom: 20px;
+}
+
+.signup-input span {
+  margin-left: 5px;
+}
+
+.signup-input input {
+  margin-top: 5px;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.signup-box button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(188, 225, 188);
+}
+
+.signup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.signup-buttons button {
+  width: 100%;
+}
+
+.signup-buttons button:first-child {
+  margin-right: 15px;
+}
+
+.go-to-login {
+  margin-top: 25px;
+}
+
+.go-to-login .go-login {
+  text-decoration: none;
+  color: green;
+}
+
+.footer {
+  background-color: lightgray;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer .copyright {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.footer .images img {
+  width: 40px;
+  margin-right: 5px;
+}

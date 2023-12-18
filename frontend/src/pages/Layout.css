@@ -1,0 +1,58 @@
+nav{
+    background-color: #DBE9D9;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 4rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.item1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.SideLayout{
+    display: flex;
+    width: 100%;
+}
+
+.MainPart{
+    width: 100%;
+}
+.items{
+    display: flex;
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.linkName{
+    width: 80%;
+}
+
+.items:hover{
+    background-color: #B9AEAE;
+    border-radius: 25px;
+}
+
+.items::selection{
+    font-weight: bolder;
+}
+
+.LogOut{
+    background-color: #BAAFAF;
+    border-radius: 5px;
+    padding: 15%;
+    margin-left: -40%;
+    margin-top: 10%;
+    visibility: hidden;
+}
+.logout{
+    position: relative;
+    right: 5%;
+}

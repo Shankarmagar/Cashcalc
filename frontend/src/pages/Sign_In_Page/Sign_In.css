@@ -1,0 +1,127 @@
+.signin-page {
+  background: linear-gradient(to bottom, rgb(188, 225, 188) 70%, green 100%);
+  padding-bottom: 140px;
+}
+
+.signin-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.signin-header img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.signin-h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.chart {
+  float: left;
+  margin-right: 20px;
+}
+
+.chart img {
+  width: 600px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.signin-h2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 50vh;
+  align-items: center;
+}
+
+.signin-box {
+  background-color: rgb(194, 194, 194);
+  padding: 40px;
+  border-radius: 15px;
+  margin-right: 200px;
+  width: 300px;
+}
+
+.input-with-icon {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signin-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: auto;
+}
+
+.input-with-icon input {
+  padding: 15px;
+  padding-left: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.signin-box button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(188, 225, 188);
+}
+
+.signin-box > div:nth-child(4) {
+  display: flex;
+  align-items: center;
+}
+
+.signin-box > div:nth-child(4) label {
+  display:inline-flex;
+  align-items: center;
+  margin-right: 65px;
+}
+
+.signin-box > div:nth-child(4) a {
+  text-decoration: none;
+  color: green;
+}
+
+.signin-box > div:nth-child(6) {
+  margin-top: 20px;
+}
+.signin-box > div:nth-child(6) a {
+  text-decoration: none;
+  color: green;
+}
+
+.footer {
+  background-color: lightgray;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer .copyright {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.footer .images img {
+  width: 40px;
+  margin-right: 5px;
+}

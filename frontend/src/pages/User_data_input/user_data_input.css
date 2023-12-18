@@ -1,0 +1,92 @@
+div .GetStarted {
+  padding-left: 200px;
+}
+
+.get-started-title {
+  padding-left: 195px;
+  margin-bottom: 60px;
+}
+
+.get-started-h3-budget {
+  padding-left: 265px;
+}
+
+.get-started-h3-income {
+  padding-left: 225px;
+}
+
+.get-started-h3-expenses {
+  padding-left: 225px;
+  margin-top: 60px;
+}
+
+.current-budget-box {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-left: 240px;
+  padding-top: 0.05px;
+  padding-bottom: 0.05px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 15px;
+  width: 420px;
+}
+
+.current-budget-text {
+  font-weight: bold;
+}
+
+.input-box {
+  background-color: rgb(194, 194, 194);
+  padding: 30px;
+  border-radius: 15px;
+  width: 600px;
+}
+
+.get-started-input {
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.get-started-submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  padding-right: 40px;
+  border-radius: 10px;
+  background-color: rgb(188, 225, 188);
+}
+
+.get-started-submit-budget {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(188, 225, 188);
+}
+
+.get-started-entry {
+  padding: 10px 0;
+  padding-left: 30px;
+  margin-top: 10px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 15px;
+  width: 630px;
+}
+
+.get-started-entry p {
+  font-weight: bold;
+}
+
+.income-array-title {
+  margin-top: 40px;
+  padding-left: 240px;
+}
+
+.expenses-array-title {
+  margin-top: 40px;
+  padding-left: 240px;
+}

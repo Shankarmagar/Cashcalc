@@ -1,0 +1,77 @@
+#columnLayout {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .ExpenseList{
+    width: 40%;
+    background-color: #B9AEAE;
+    border-radius: 25px;
+    padding: 3%;
+    margin: 0 auto;
+    
+  }
+  /* .mediumC{
+    width: 40%;
+    background-color: #B9AEAE;
+    border-radius: 25px;
+    padding: 3%;
+    margin: 0 auto;
+  
+    position: relative;
+  } */
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+    /* position: absolute; */
+    
+  
+  }
+
+  .hiddenItem{
+    position: relative;
+    margin-top: -44%;
+    
+  }
+  
+ul{
+    list-style: none;
+    /* border: 1px solid black; */
+}
+li{
+  background-color: #D9D9D9;
+  border: 1px solid black ;
+}
+
+button:hover{
+  background-color: #DBE9D9;
+}
+
+button:focus{
+  background-color: #DBE9D9;
+}
+
+.innerBP {
+  background-color: #B9AEAE;
+  border-radius: 25px;
+}
+
+#leftaligned {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#rightaligned {
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}

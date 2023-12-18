@@ -1,0 +1,83 @@
+.home-page {
+  background: linear-gradient(to bottom, rgb(188, 225, 188) 70%, green 100%);
+  padding-bottom: 140px;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.home-header img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.home-h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.chart {
+  float: left;
+  margin-right: 20px;
+}
+
+.chart img {
+  width: 600px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.home-intro p {
+    font-size: 25px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home-signin-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home-signin-button {
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+}
+
+.home-signup-button {
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.footer .copyright {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.footer .images img {
+  width: 40px;
+  margin-right: 5px;
+}

@@ -1,0 +1,186 @@
+h2 {
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: xx-large;
+  margin-bottom: 2%;
+
+}
+
+.ContentPart {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #DBE9D9;
+  border-radius: 25px;
+  height: 100%;
+}
+
+.Personal_info {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1 {
+  width: 200px;
+  /* Set your desired width */
+  height: 200px;
+  /* Set your desired height, should be the same as width */
+  border-radius: 50%;
+  /* This makes the element a circle */
+  object-fit: cover;
+  /* Ensures the image covers the entire circle without stretching */
+  z-index: -1;
+}
+
+.image2 {
+  z-index: 0;
+}
+
+.image2 {
+  position: relative;
+  left: -50%;
+  margin-bottom: 25%;
+}
+
+.detail {
+  display: flex;
+  gap: 7%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.headPart {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  gap: 2%;
+  border-bottom: 1px solid black;
+}
+
+.info {
+  width: 50%;
+  margin: 0% auto;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: start;
+  row-gap: 80%;
+
+}
+
+.update-photo {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #B9AEAE;
+  align-items: center;
+  padding: 3%;
+  border-radius: 25px;
+
+}
+
+.space {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.custom-file-upload {
+  margin-left: 3%;
+  cursor: pointer;
+  padding: 6px 10px;
+  background-color: #D9D9D9;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* Style the label to look like a button */
+.custom-file-upload:hover {
+  background-color: #f0f0f0;
+}
+
+/* Hide the default file input */
+input[type="file"] {
+  display: none;
+}
+
+.FormPart {
+  position: relative;
+  margin-top: -44%;
+
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.upload_section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Upload {
+  padding: 12px 5px;
+  width: 42%;
+  background-color: #DBE9D9;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Cancel {
+  background-color: #D9D9D9;
+  width: 42%;
+  padding: 12px 5px;
+  border-radius: 5px;
+  color: red;
+  text-align: center;
+}
+
+.update-Username {
+  width: 40%;
+  margin: 0 auto;
+  gap: 30px;
+  background-color: #B9AEAE;
+  border-radius: 25px;
+  padding: 5%;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+span {
+  margin-left: 9%;
+}
+
+input {
+  border: none;
+  width: 80%;
+}
+
+.update-accountInformation {
+  width: 40%;
+  background-color: #B9AEAE;
+  border-radius: 25px;
+  padding: 3%;
+  margin: 0 auto;
+
+}
+
+.profile-page {
+  height: 84%;
+}
